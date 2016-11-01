@@ -20,12 +20,12 @@ namespace Ex1
     public struct Time
     {
         private readonly int minutes;
-        public readonly int hours { get { return this + m / 60; } }
+        public readonly int Hours { get { return hours; }  }
 
         public Time(int h, int m)
         {
             this.minutes = 60 * h + m;
-            //this.hours = h + m/60;
+            this.hours = h + m/60;
         }
         public override String ToString()
         {
