@@ -1,0 +1,6 @@
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\bin\Debug\Ex4.exe.config
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\bin\Debug\Ex4.exe
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\bin\Debug\Ex4.pdb
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\obj\Debug\Ex4.exe
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\obj\Debug\Ex4.pdb
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie2\Ex4\obj\Debug\Ex4.csprojResolveAssemblyReference.cache

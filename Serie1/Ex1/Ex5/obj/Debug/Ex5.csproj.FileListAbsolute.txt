@@ -1,0 +1,6 @@
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\bin\Debug\Ex5.exe.config
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\bin\Debug\Ex5.exe
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\bin\Debug\Ex5.pdb
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\obj\Debug\Ex5.csprojResolveAssemblyReference.cache
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\obj\Debug\Ex5.exe
+C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie1\Ex1\Ex5\obj\Debug\Ex5.pdb
