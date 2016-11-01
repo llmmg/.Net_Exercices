@@ -7,3 +7,9 @@ C:\Users\Lancelot\Google Drive\HEARC3EME\C#\Exercices\Serie4\Ex1\obj\Debug\Ex1.p
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.exe.config
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.exe
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.exe.config
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.csprojResolveAssemblyReference.cache
