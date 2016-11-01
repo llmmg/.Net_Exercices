@@ -11,7 +11,8 @@ namespace Ex1
         static void Main(string[] args)
         {
             Time t = new Time(System.DateTime.Now.Hour,System.DateTime.Now.Minute);
-            Console.WriteLine("Temps écoulé ce jours: "+t+" minutes");
+            Console.WriteLine("Temps écoulé ce jour: "+t+" minutes");
+            Console.WriteLine("Heures écoulées ce jour:" + t + ")");
 
             Console.ReadKey();
         }
@@ -19,12 +20,12 @@ namespace Ex1
     public struct Time
     {
         private readonly int minutes;
-        private readonly int hours;
+        public readonly int hours { get { return this + m / 60; } }
 
         public Time(int h, int m)
         {
             this.minutes = 60 * h + m;
-            this.hours = h + m/60;
+            //this.hours = h + m/60;
         }
         public override String ToString()
         {
