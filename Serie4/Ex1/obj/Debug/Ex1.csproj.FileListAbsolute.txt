@@ -13,3 +13,6 @@ C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1
 C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.exe
 C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.pdb
 C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.csprojResolveAssemblyReference.cache
+C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.exe
+C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\bin\Debug\Ex1.pdb
+C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie4\Ex1\obj\Debug\Ex1.csprojResolveAssemblyReference.cache
