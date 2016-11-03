@@ -1,0 +1,6 @@
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\bin\Debug\Ex2.exe.config
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\bin\Debug\Ex2.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\bin\Debug\Ex2.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\obj\Debug\Ex2.csprojResolveAssemblyReference.cache
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\obj\Debug\Ex2.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie4\Ex2\obj\Debug\Ex2.pdb
