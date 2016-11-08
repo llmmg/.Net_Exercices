@@ -1,0 +1,9 @@
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\bin\Debug\WinFormTest1.exe.config
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\bin\Debug\WinFormTest1.exe
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\bin\Debug\WinFormTest1.pdb
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.csprojResolveAssemblyReference.cache
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.Form1.resources
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.Properties.Resources.resources
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.csproj.GenerateResource.Cache
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.exe
+C:\Users\Lancelot\Documents\LocalDev\DotNet\WinFormTest1\obj\Debug\WinFormTest1.pdb
