@@ -8,11 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/*Author: Lancelot Magnin*/
+
+
 namespace TicTacToe
 {
     public partial class MainForm : Form
     {
-        //0 = user, 1=computer
+        //%2=0 => user, %2=1=>computer
         int playerPlaying = 0;
         Button[] allBtn;
 
@@ -20,8 +24,8 @@ namespace TicTacToe
         {
             InitializeComponent();
 
-            //Subscrib method button1_click2 to button1's click event
-            this.button1.Click += new System.EventHandler(this.button1_click2);
+
+
             allBtn =new Button[]{this.button1,this.button2,this.button3,
                                 this.button4,this.button5,this.button6,
                                 this.button7,this.button8,this.button9};
@@ -36,73 +40,121 @@ namespace TicTacToe
             }
             else
             {
-                btn.Text = "0";
+                btn.Text = "O";
             }
-            playerPlaying++;
+
+            btn.BackColor = Color.AliceBlue;
+            btn.Enabled = false;
+
+            //check if there's a win pattern
+            if (win())
+            {
+                this.BackColor = Color.Pink;
+                if (playerPlaying % 2 == 0)
+                {
+                    this.label1.Text = "USER WIN!!!!";
+                }
+                else
+                {
+                    this.label1.Text = "COMPUTER WIN!!!";
+                }
+
+            }
+            else
+            {
+                playerPlaying++;
+            }
+
+
+            if (playerPlaying > 9)
+            {
+                this.label1.Text = "END GAME";
+            }
+            label2.Text = playerPlaying.ToString();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        /***
+         * 
+         * play random value
+         *
+         * **/
+        private void botPlay()
         {
+            Random rnd = new Random();
+            int val = rnd.Next(0, 9);
+            while (allBtn[val].Enabled == false && playerPlaying < 8)
+            {
+                val=rnd.Next(0, 9);
+            }
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //this.button1.Text = "X";
-            play(this.button1);
-        }
-        private void button1_click2(object sender, EventArgs e)
-        {
-            this.button1.BackColor =Color.Red;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            play(this.button2);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
+            play(allBtn[val]);
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void click(object sender, EventArgs e)
         {
+            Button mybtn= (Button)sender;
 
+            if(mybtn.Enabled)
+            {
+                play(mybtn);   
+                        
+                botPlay();
+            }
+
+            
+
+        }
+
+        public bool win()
+        {
+            // 0 1 2
+            // 3 4 5
+            // 6 7 8
+
+            
+            if (allBtn[0].Text == allBtn[1].Text && allBtn[1].Text == allBtn[2].Text && allBtn[0].Text!="")
+            {
+                return true;
+            }
+            else if (allBtn[3].Text == allBtn[4].Text && allBtn[4].Text == allBtn[5].Text && allBtn[3].Text != "")
+            {
+                return true;
+            }
+            else if (allBtn[6].Text == allBtn[7].Text && allBtn[7].Text == allBtn[8].Text && allBtn[6].Text != "")
+            {
+                return true;
+            }
+            else if (allBtn[0].Text == allBtn[3].Text && allBtn[3].Text == allBtn[6].Text && allBtn[0].Text != "")
+            {
+                return true;
+            }
+            else if (allBtn[1].Text == allBtn[4].Text && allBtn[4].Text == allBtn[7].Text && allBtn[1].Text != "")
+            {
+                return true;
+            }else if(allBtn[2].Text == allBtn[5].Text && allBtn[5].Text == allBtn[8].Text && allBtn[2].Text != "")
+            {
+                return true;
+            }else if (allBtn[0].Text == allBtn[4].Text && allBtn[4].Text == allBtn[8].Text && allBtn[0].Text != "")
+            {
+                return true;
+            }else if (allBtn[2].Text == allBtn[4].Text && allBtn[4].Text == allBtn[6].Text && allBtn[2].Text != "")
+            {
+                return true;
+            }
+
+            return false;
         }
     }
-    public class state
+
+    //state object, used to know what would be the optimal next play according to actual state...
+    /*public class state
     {
-        private string[,] value;
+        private string[,] value; //actual state 
 
         public state()
         {
-            this.value = new string[3,3];
+            this.value = new string[3, 3];
         }
 
 
@@ -113,13 +165,15 @@ namespace TicTacToe
             if (tmp == value[0, 1] && tmp == value[0, 2])
                 return true;
 
-
-            /*for(int i=0;i<3;i++)
+            
+            for(int i=0;i<3;i++)
             {
-                value[0,i]
-            }*/
+                if (value[0, i] != tmp)
+                    return false;
+            }
+
             return false;
         }
 
-    }
+    }*/
 }

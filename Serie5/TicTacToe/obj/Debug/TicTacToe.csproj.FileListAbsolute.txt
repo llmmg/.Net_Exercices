@@ -7,3 +7,12 @@ C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\Tic
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\Lancelot\Documents\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.MainForm.resources
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\Lancelot\Documents\HeArc\Depots\.Net_Exercices\Serie5\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache
