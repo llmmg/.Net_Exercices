@@ -14,6 +14,7 @@ namespace TicTacToe
     {
         //0 = user, 1=computer
         int playerPlaying = 0;
+        Button[] allBtn;
 
         public MainForm()
         {
@@ -21,6 +22,23 @@ namespace TicTacToe
 
             //Subscrib method button1_click2 to button1's click event
             this.button1.Click += new System.EventHandler(this.button1_click2);
+            allBtn =new Button[]{this.button1,this.button2,this.button3,
+                                this.button4,this.button5,this.button6,
+                                this.button7,this.button8,this.button9};
+
+
+        }
+        private void play(Button btn)
+        {
+            if(playerPlaying%2==0)
+            {
+                btn.Text = "X";
+            }
+            else
+            {
+                btn.Text = "0";
+            }
+            playerPlaying++;
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -30,7 +48,8 @@ namespace TicTacToe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.button1.Text = "X";
+            //this.button1.Text = "X";
+            play(this.button1);
         }
         private void button1_click2(object sender, EventArgs e)
         {
@@ -39,7 +58,42 @@ namespace TicTacToe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.button2.Text = "X";
+            play(this.button2);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
         }
     }
     public class state
@@ -58,12 +112,13 @@ namespace TicTacToe
 
             if (tmp == value[0, 1] && tmp == value[0, 2])
                 return true;
-            
-            
+
+
             /*for(int i=0;i<3;i++)
             {
                 value[0,i]
             }*/
+            return false;
         }
 
     }
